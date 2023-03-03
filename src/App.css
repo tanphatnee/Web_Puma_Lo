@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+  color: red
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.search-result {
+  position: absolute;
+  top: 70px;
+  background-color: whitesmoke;
+  width: 500px;
+  right: 0;
+  border-radius:4px;
+}
+
+.search-item {
+  padding: 8px 8px;
+  cursor: pointer;
+  border-bottom: 1px solid;
+  border-radius:4px;
+  display: flex;
+}
+
+.search-item:hover {
+  background-color: #ccc;
+}
+
+
+@media only screen and (max-width: 1050px){
+  .search-result {
+    width: 100%;
+    top: 117px;
+  }
+}
+
+.img > img {
+  max-width: 120px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 12px;
+}
+
+.more {
+  margin: 8px 0px;
+}
+
+.more-btn {
+  padding: 4px 12px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.more-btn:hover {
+  opacity: 0.6;
+}
+
+.MuiFormHelperText-root {
+  color: red !important;
+}
